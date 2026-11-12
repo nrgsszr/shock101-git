@@ -9,7 +9,7 @@ def reply(text: str) -> str:
         return "Please enter a message."
 
     if message == "سلام":
-        return return "سلام دوست من! خوش اومدی!"
+        return "سلام! خوش آمدید. چطور می‌توانم کمکتان کنم؟"
 
     return f"Echo-lite received: {message}"
 

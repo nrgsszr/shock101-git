@@ -33,7 +33,7 @@ class TestEchoLite(unittest.TestCase):
     def test_salam_greeting(self):
         self.assertEqual(
             reply("سلام"),
-            "سلام! خوش آمدید."
+            "سلام! خوش آمدید. چطور می‌توانم کمکتان کنم؟"
         )
 
 if __name__ == "__main__":
