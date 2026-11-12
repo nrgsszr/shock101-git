@@ -30,6 +30,11 @@ class TestEchoLite(unittest.TestCase):
             "Echo-lite received: خوبی؟"
         )
 
+    def test_salam_greeting(self):
+        self.assertEqual(
+            reply("سلام"),
+            "سلام! خوش آمدید."
+        )
 
 if __name__ == "__main__":
     unittest.main()
